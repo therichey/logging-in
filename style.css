@@ -111,10 +111,10 @@ input {
   margin: 0;
 }
 
-input[type=password] {
+/*input[type=password] {
   display: block;
   width: 100%;
-}
+}*/
 
 #employee-id {
   width: 158px;
