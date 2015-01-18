@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel='stylesheet' href='style.css'/>
+    <script type='text/javascript' src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    
+    <script src='script.js'></script>
+	</head>
+	
+  <body>
+    <header>
+      <img src="http://asset1.marksandspencer.com/is/image/mands/logo-mns?$CHECKOUT_LOGO$">
+    </header>
+    <div id="form-box">
+      <h1>Sign in</h1>
+      <form id='log-in'>
+        <label>Username</label>
+        <div id="help-text">
+          <p>Your username will look like this: 12345678_X1234</p>
+          <p>To make it easier to log in, the underscore in your username is already filled in for you</p>
+          <p>First box must be 8 characters</p>
+        <div id="username">
+          <input type='text' id='employee-id' name='employee-id' pattern="^[\w\d]{8}" autocapitalize="characters" autofocus required>
+          <div id="underscore">_</div>
+          <input type='text' id='store-id-1' name='store-id-1' maxlength='1' autocapitalize="characters" pattern="^[A-Za-z]{1}" required><input type='text' id='store-id-2' name='store-id-2' maxlength='4' autocapitalize="characters" pattern="^[\d]{4}" required>
+        </div>
+        
+        <label>Password</label>
+        <div id="help-text">
+          <p>Your password is at least 8 characters and contains a minimum of one number</p>
+        <div>
+          <input type='password' id='password' name='password' required>
+          <p>If you have forgotten your password please contact your store administrator/supervisor</p>
+        </div>
+        <button type='submit' class='submit'><span>Sign in</span></button>
+      </form>
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  background-color: white;
+  padding: 15px;
+}
+
+p {
+  color: #6f6f6f;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+label {
+  font-size: 24px;
+}
+
+#username {
+  margin-bottom: 25px;
+}
+
+#form-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  margin: 5%;
+  background-color: white;
+  text-align: left;
+  padding: 15px;
+}
+
+@media (max-width: 415px) {
+  #form-box {
+    width: 94%;
+    margin: 0;
+    padding: 3%;
+  }
+}
+  
+#underscore {
+  display: inline-block;
+  font-size: 36px;
+}
+
+button[type=submit] {
+ -webkit-appearance: none; 
+ -moz-appearance: none;
+ display: block;
+ margin: 1.5em 0;
+ font-size: 1em; 
+ line-height: 2.5em;
+ color: #333;
+ font-weight: bold;
+ height: 2.5em; 
+ width: 100%;
+ 
+ background: #fdfdfd; 
+ background: -moz-linear-gradient(top, #fdfdfd 0%, #bebebe 100%); 
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#bebebe)); 
+ background: -webkit-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); 
+ background: -o-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); 
+ background: -ms-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); 
+ background: linear-gradient(to bottom, #fdfdfd 0%,#bebebe 100%);
+ 
+ border: 1px solid #bbb;
+ -webkit-border-radius: 10px; 
+ -moz-border-radius: 10px; 
+ border-radius: 10px;
+}
+
+/*#username {
+  -webkit-appearance: none; -moz-appearance: none;
+  display: block;
+  margin: 0;
+}*/
+
+input {
+  -webkit-appearance: none; -moz-appearance: none; 
+  height: 40px;
+  line-height: 40px;
+  font-size: 28px;
+  border: 1px solid #bbb;
+  margin: 0;
+}
+
+input[type=password] {
+  display: block;
+  width: 100%;
+}
+
+#employee-id {
+  width: 158px;
+}
+
+#store-id-1 {
+  width: 28px;
+}
+  
+#store-id-2 {
+  width: 74px;
+}
+
+
+
+/*@media (max-width: 415px) {
+  .nav {
+    font-size: 28px;
+  }
+}
+
+*/
