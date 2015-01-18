@@ -5,6 +5,7 @@ input[type="submit"] {
    -webkit-appearance: none;
    -moz-appearance: none; 
    border-radius: 0;
+   padding: 1px;
 }
 
 body {
