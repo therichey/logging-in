@@ -18,11 +18,13 @@
     <div id="form-box">
       <h1>Sign in</h1>
       <form id='log-in'>
+        
         <label>Username</label>
         <div id="help-text">
           <p>Your username will look like this: 12345678_X1234</p>
           <p>To make it easier to log in, the underscore in your username is already filled in for you</p>
           <p>First box must be 8 characters</p>
+        </div>  
         <div id="username">
           <input type='text' id='employee-id' name='employee-id' maxlength='8' pattern="^[\w\d]{8}" autocapitalize="characters" autofocus required>
           <div id="underscore">_</div>
@@ -32,13 +34,12 @@
         <label>Password</label>
         <div id="help-text">
           <p>Your password is at least 8 characters and contains a minimum of one number</p>
-        <div>
-          <input type='password' id='password' name='password' required>
-          <p>If you have forgotten your password please contact your store administrator/supervisor</p>
         </div>
+        <input type='password' id='password' name='password' required>
+          <p>If you have forgotten your password please contact your store administrator/supervisor</p>
         <button type='submit' class='submit'><span>Sign in</span></button>
-      </form>
       
+      </form>
     </div>
   </body>
 </html>
