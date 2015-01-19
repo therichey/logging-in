@@ -21,6 +21,12 @@ input {
   margin: 0;
 }
 
+@media (min-width: 700px) {
+  input {
+    height: 44px;
+  }
+}
+
 body {
   background-color: black;
   margin: 0;
@@ -133,6 +139,20 @@ button[type=submit] {
   width: 265px;
 }
 
+@media (min-width: 700px) {
+  #employee-id {
+    width: 276px;
+  }
+  #store-id-1 {
+    width: 66px;
+  }
+  #store-id-2 {
+    width: 148px;
+  }
+  #password {
+    width: 520px;
+  }
+}
 
 
 /*@media (max-width: 415px) {
